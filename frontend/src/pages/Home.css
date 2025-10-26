@@ -1,0 +1,88 @@
+/* General Styles */
+body {
+    background: url('/HHome.jpg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+}
+
+/* Overlay for Better Readability */
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6); /* Adds contrast for text */
+}
+
+/* Center Content */
+.container {
+    position: relative;
+    text-align: center;
+    padding: 50px 0;
+}
+
+/* Heading */
+h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: #FFB84D; /* Golden */
+    text-shadow: 2px 2px 8px rgba(255, 184, 77, 0.8);
+    animation: fadeIn 2s ease-in-out;
+}
+
+/* Subtext */
+p {
+    font-size: 1.3rem;
+    color: #FFDAB9; /* Soft Peach */
+    max-width: 700px;
+    margin: auto;
+    animation: slideUp 2s ease-in-out;
+}
+
+/* Buttons */
+button {
+    background: #FFD700; /* Gold */
+    color: #000;
+    font-weight: bold;
+    padding: 12px 28px;
+    font-size: 1.2rem;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 4px 10px rgba(255, 184, 77, 0.5);
+}
+
+button:hover {
+    background: #FF4500; /* Deep Orange */
+    color: white;
+    transform: scale(1.1);
+}
+
+/* Cards */
+.card {
+    background: rgba(0, 0, 0, 0.7); /* Glassmorphism effect */
+    padding: 20px;
+    border-radius: 15px;
+    color: #fff;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(255, 184, 77, 0.5);
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes slideUp {
+    from { transform: translateY(30px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}

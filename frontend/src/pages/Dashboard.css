@@ -1,0 +1,82 @@
+/* Dark Mode Toggle Button */
+.dark-mode-toggle {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 1000;
+  transition: background-color 0.3s;
+}
+
+.dark-mode-toggle:hover {
+  background-color: #555;
+}
+
+.dark-mode-toggle:focus {
+  outline: none;
+}
+
+/* Main Dashboard Layout */
+.dashboard-container {
+  max-width: 800px;
+  margin: auto;
+  text-align: center;
+  padding: 20px;
+}
+
+.main-content {
+  padding-top: 80px; /* Adjust based on navbar height */
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+/* Table Styles */
+.table-container {
+  overflow-x: auto; /* Enables horizontal scrolling on small screens */
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+th {
+  background: #007bff;
+  color: white;
+  position: sticky;
+  top: 0;
+}
+
+td {
+  background: #f8f9fa;
+}
+
+/* Dark Mode Styles */
+body.dark-mode {
+  background-color: #121212;
+  color: white;
+}
+
+body.dark-mode .dashboard-container {
+  background: #1e1e1e;
+}
+
+body.dark-mode table {
+  background: #333;
+  color: white;
+}
+
+body.dark-mode th {
+  background: #0056b3;
+}

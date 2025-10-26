@@ -1,0 +1,24 @@
+/* General button styles */
+.dark-mode-toggle {
+  background: #222;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Hover effect for desktop */
+.dark-mode-toggle:hover {
+  background: #444;
+}
+
+/* Mobile-specific styles */
+@media (max-width: 70px) {
+  .dark-mode-toggle {
+    font-size: 14px; /* Smaller text for mobile */
+    padding: 8px 16px;
+  }
+}
