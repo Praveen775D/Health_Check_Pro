@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:5000/api'; // Change this to your backend URL
+const API_URL = 'https://health-check-pro.onrender.com/api'; // Change this to your backend URL
 
 // Fetch user dashboard data
 export const getDashboardData = async (userId) => {
