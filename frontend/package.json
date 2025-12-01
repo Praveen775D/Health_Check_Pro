@@ -23,7 +23,6 @@
     "react-icons": "^5.5.0",
     "react-router-dom": "^7.3.0",
     "react-scripts": "^5.0.1",
-    "react-speech-kit": "^3.0.1",
     "react-toastify": "^11.0.5",
     "recharts": "^2.15.1",
     "web-vitals": "^2.1.4"
@@ -35,22 +34,11 @@
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+    "extends": ["react-app", "react-app/jest"]
   },
   "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+    "production": [">0.2%", "not dead", "not op_mini all"],
+    "development": ["last 1 chrome version", "last 1 firefox version", "last 1 safari version"]
   },
   "proxy": "http://localhost:5000"
 }
